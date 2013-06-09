@@ -15,17 +15,17 @@
       :what_to_look_for => ['Polling for updates', 'Three-part API integration', 'UX including keyboard shortcuts, carousel']
     }
     :project_2 => {
+      :title => "Eldoorado"
+      :description => "Eldoorado employs service-oriented design. Using a text file of badge scan data (around 7,500 scans), I constructed an API that accepts JSON requests, built out a Ruby Gem to wrap the API, and built a data visualization tool incorporating D3 time-lapse graphing."
+      :url => 'http://github.com/gschorkopf/eldoorado_dashboard'
+      :what_to_look_for => ['D3 for data visualization', 'service-oriented design across multiple repos', 'High test coverage using VCR']
+    }
+    :project_3 => {
       :title => "Agraphum"
       :description => "Agraphum is a multi-tenant arts and crafts store in the same vein as Etsy. Multiple craftsmen/admins can post products and stores, while users can add favorites and create themed lists of products."
       :url => 'http://github.com/raphweiner/daughter_of_store_engine'
       :what_to_look_for => ['Clean code / high test coverage', 'Multi-tenacy store fronts', 'Creative user interface / admin dashboard']
-    }
-    :project_3 => {
-      :title => "Eldoorado"
-      :description => "Eldoorado employs service-oriented design. Using a text file of badge scan data (around 7,500 scans), I constructed an API that accepts JSON requests, built out a Ruby Gem to wrap the API, and built a data visualization tool incorporating D3 time-lapse graphing."
-      :url => 'http://github.com/gschorkopf/eldoorado_gem'
-      :what_to_look_for => ['D3 for data visualization', 'service-oriented design across multiple repos', 'High test coverage using VCR']
-    }
+    },
   },
   :resume => "http://www.linkedin.com/profile/view?id=215861025",
   :references => ['Mike Chlipala - Senior Web Developer @ Living Social - mchlipala@gmail.com']
